@@ -23,3 +23,5 @@
   var a = A();  // a.name:'John';
   console.log(A().name);  // 'John'
 ```
+
+` 如果直接在构造函数中 return this，拿到的其实是函数所在作用域全局对象，例如，window对象`
