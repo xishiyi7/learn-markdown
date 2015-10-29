@@ -1,5 +1,7 @@
 # JavaScript 中遇到的点滴
 
+###### 1. 原型 原型对象 prototype
+
 > javascript为所有***函数***绑定一个prototype属性，由这个属性指向一个原型对象***fn.prototype***，我们**在原型对象中定义类的继承属性和方法**等，eg：
 
 ` var A = function(){};`  
