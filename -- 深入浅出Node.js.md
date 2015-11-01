@@ -168,3 +168,10 @@
  ` 9.2.3 句柄传递: child.send(message,[sendHandle]), 第二个参数就是句柄`
 
 > 9.3 集群稳定之路
+
+ ` 9.3.1 进程事件: send、message、error、exit、close、disconnect；已经kill方法`  
+ ` 9.3.2 自动重启: 自杀信号、限量重启`
+ ` 9.3.3 负载均衡`
+ ` 9.3.4 状态共享: 第三方数据存储、主动通知`
+ ` 9.3.5 Cluster模块`
+ 
