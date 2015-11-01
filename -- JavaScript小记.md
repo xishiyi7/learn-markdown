@@ -28,3 +28,30 @@
 ```
 
 ` 如果直接在构造函数中 return this，拿到的其实是函数所在作用域全局对象，例如，window对象`
+
+###### 回调 callBack
+
+```
+function Aaron(List, callback) {
+    setTimeout(function() {
+      var task = List.shift();
+debugger                                        // 在chrome的console中 debugger也能进调试
+      task();                                   // 执行函数
+      if (List.length > 0) {                    // 递归分解
+        setTimeout(arguments.callee, 1000);     // 调用arguments所在作用域函数自身 此处递归调用           
+      } else {
+        callback();
+      }
+    }, 25)
+  }
+
+  Aaron([function(){
+    console.log('a')
+  },function(){
+    console.log('b')
+  }],function(){
+    console.log('callback')
+  })
+  
+/* **以上例子只是提醒自己可以在chrome console中调试、callee可以用于递归调用等** */
+```
