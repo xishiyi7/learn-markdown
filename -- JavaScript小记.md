@@ -55,3 +55,43 @@ debugger                                        // 在chrome的console中 debugg
   
 /* **以上例子只是提醒自己可以在chrome console中调试、callee可以用于递归调用等** */
 ```
+
+###### 设计模式
+
+ ` 工厂模式`
+ ```
+      function createBlog(name, url) {
+        var o = new Object();
+        o.name = name;
+        o.url = url;
+        o.sayUrl= function() {
+          alert(this.url);
+        }
+        return o;
+      }
+       
+      var blog = createBlog('xishiyi7', 'http://github.com');
+      console.log(blog instanceof Object);  // true 工厂模式 只能识别 Object
+ ```
+ 
+ ` 构造函数模式`
+ ```
+      function Blog(name, url) {
+        this.name = name;
+        this.url = url;
+        this.alertUrl = function() {
+          alert(this.url);
+        }
+      }
+       
+      var blog = new Blog('xishiyi7', 'http://github.com');
+      console.log(blog instanceof Blog);  // true 构造函数模式 能识别 Blog, 因此可以构造Array、Date等类型对象
+ ```
+ 
+ ` 构造函数模式A 与工厂模式B 的区别：`
+ ```
+      构造函数模式A 没有显示的创建对象
+      构造函数模式A 没有return语句
+      构造函数模式A 使用new创建对象
+      构造函数模式A 可以识别对象     // 用instanceof 可以识别
+ ```
