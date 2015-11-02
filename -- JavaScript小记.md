@@ -29,7 +29,7 @@
 
 ` 如果直接在构造函数中 return this，拿到的其实是函数所在作用域全局对象，例如，window对象`
 
-###### 回调 callBack
+###### 2. 回调 callBack
 
 ```
 function Aaron(List, callback) {
@@ -56,7 +56,7 @@ debugger                                        // 在chrome的console中 debugg
 /* **以上例子只是提醒自己可以在chrome console中调试、callee可以用于递归调用等** */
 ```
 
-###### 设计模式
+###### 3. 设计模式
 
  ` 工厂模式`
  ```
