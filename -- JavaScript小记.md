@@ -95,3 +95,9 @@ debugger                                        // 在chrome的console中 debugg
       构造函数模式A 使用new创建对象
       构造函数模式A 可以识别对象     // 用instanceof 可以识别
  ```
+ 
+###### 4.内存泄漏
+
+` 内存泄漏的几种情况包括：循环引用、js闭包、DOM插入顺序等`
+
+
