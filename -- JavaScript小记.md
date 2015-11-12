@@ -104,4 +104,15 @@ debugger                                        // 在chrome的console中 debugg
 
 ` 通过委托添加事件，除了能提升性能，还可以很友好的支持动态绑定`
 
+###### 6. 类型
+
+` !!, 通过!!, 0/null/undefined/false等值都会变为false, 而非这些值的变量都会变为true, 方便判断`
+```
+      var a,b=0,c=null,d=false;
+      var aa = !!a, bb = !b, cc = !c, dd = !d;      // 此时 aa===bb===cc===dd===false
+      
+      var x=1,y='A',z=true,w={};
+      var xx = !!x, yy = !!y, zz = !!z, ww = !!w;   // 此时 xx===yy===zz===ww===true        
+      
+```
 
