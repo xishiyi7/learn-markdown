@@ -1,5 +1,8 @@
 # MarkDown
 
+在webStrom中可以通过添加MarkDown插件来方便编写MD文件  
+详情见 [markdown](http://blog.fens.me/webstorm-markdown/)
+
 > 标题 #
 
 # A
