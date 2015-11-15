@@ -116,3 +116,37 @@ debugger                                        // 在chrome的console中 debugg
       
 ```
 
+###### 7. 跨域
+
+` jsonp`
+> 参考文章：[jsonp](http://www.cnblogs.com/duanhuajian/p/3152617.html)
+```
+      主要原理，在html中，拥有src属性的标签可以实现，例如script、img、iframe等，又由于json格式的通用性，可以实现跨域。如下:  
+      a. 在远程有一个demo.js，代码如下
+            alert('demo');
+      本地的html中如果引入了这段js，即有  
+            <script src="http://xxx.com/demo.js"></script>
+      那当页面解析到这句话，就会执行这段代码，弹出demo;
+      b. 如果想执行的是一个函数，只要在引用这段js之前先定义一个函数，然后在远程js中执行即可，即：
+            <script>
+                  var demoFun = function(arg){alert('demoArg='+arg)};
+            </script>
+            <script src="http://xxx.com/demo.js"></script>
+      远程的js中调用代码如下：
+            demoFun('b')
+      那当解析到远程js文件时，也会执行函数demoFun，弹出demob；
+      c. 如果想执行一个动态函数，只要给服务器传递一个函数名称供识别就行：
+            <script>
+                  var demoFun = function(arg){alert('demoArg='+arg)};
+                  var ur = "http://xxx.com/yyy.aspx?callback=demoFun";
+                  // 创建script标签，设置其属性
+                  var script = document.createElement('script');
+                  script.setAttribute('src',url);
+                  // 把script标签加入head，此时调用开始
+                  document.getElementsByTagName('head')[0].appendChild(script); 
+            </script>
+      这样，只要服务器在访问aspx页面且参数为demoFun时，返回需要调用的函数即可，此时可以返回：
+            demoFun('这里可以是任何json对象或者字符串')
+            
+      以上分别是三种不一样场景使用jsonp进行跨域的例子
+```
