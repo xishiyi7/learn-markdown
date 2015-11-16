@@ -118,8 +118,10 @@ debugger                                        // 在chrome的console中 debugg
 
 ###### 7. 跨域
 
+` 几种常见js跨域解决方案`[跨域](http://www.cnblogs.com/2050/p/3191744.html)
+
 ` jsonp`
-> 参考文章：[jsonp](http://www.cnblogs.com/duanhuajian/p/3152617.html)
+> 参考文章：1. [jsonp](http://www.cnblogs.com/duanhuajian/p/3152617.html)
 ```
       主要原理，在html中，拥有src属性的标签可以实现，例如script、img、iframe等，又由于json格式的通用性，可以实现跨域。如下:  
       a. 在远程有一个demo.js，代码如下
