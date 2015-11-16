@@ -165,7 +165,7 @@ debugger                                        // 在chrome的console中 debugg
 > localStorage: 同一个域下面，多个窗口可以共享给数据  
 > sessionStorage: 只有当前窗口保留数据  
 > [localStorage与sessionStorage简单用法](http://www.cnblogs.com/xiaowei0705/archive/2011/04/19/2021372.html)  
-> [html5本地存储学习一](http://blog.csdn.net/fyq891014/article/details/7625805)
+> [html5本地存储学习一](http://blog.csdn.net/fyq891014/article/details/7625805)  
 > [manifest](http://www.cnblogs.com/_franky/archive/2012/11/23/2783947.html)
 ```
       1. 首先有一个manifest文件，如demo.manifest，格式如下：  
