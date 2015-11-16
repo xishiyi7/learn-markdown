@@ -162,3 +162,6 @@ debugger                                        // 在chrome的console中 debugg
 ```
 
 ###### 8. HTML5本地存储功能
+> localStorage: 同一个域下面，多个窗口可以共享给数据  
+> sessionStorage: 只有当前窗口保留数据  
+> [localStorage与sessionStorage简单用法](http://www.cnblogs.com/xiaowei0705/archive/2011/04/19/2021372.html)
