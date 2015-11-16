@@ -166,3 +166,14 @@ debugger                                        // 在chrome的console中 debugg
 > sessionStorage: 只有当前窗口保留数据  
 > [localStorage与sessionStorage简单用法](http://www.cnblogs.com/xiaowei0705/archive/2011/04/19/2021372.html)  
 > [html5本地存储学习一](http://blog.csdn.net/fyq891014/article/details/7625805)
+> [manifest](http://www.cnblogs.com/_franky/archive/2012/11/23/2783947.html)
+```
+      1. 首先有一个manifest文件，如demo.manifest，格式如下：  
+      CACHE MANIFEST
+      #此处可以添加注释 下面那些都是需要缓存的文件 如果此manifest文件没有发生变化 这几个文件就不需要重新拿取
+      js/app.js
+      css/app.css
+      img/demo.ico
+      http://192.168.32.213/xxx/yyy.js    
+      2. 然后在html页面中引入该manifest文件，即 <html manifest="demo.manifest">`
+```
