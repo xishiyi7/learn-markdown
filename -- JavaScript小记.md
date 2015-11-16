@@ -118,6 +118,12 @@ debugger                                        // 在chrome的console中 debugg
 
 ###### 7. 跨域
 
+**` 支持XMLHttpRequest2的现代浏览器, 服务端设置Access-Control-Allow-Origin返回头即可`**  
+**` 使用HTML5中新引进的window.postMessage方法来跨域传送数据`**  
+**` 使用jsonp实现跨域(需要评估安全性)`**  
+**` 使用window.name`**  
+**` 使用document.domain`**
+
 ` 几种常见js跨域解决方案`[跨域](http://www.cnblogs.com/2050/p/3191744.html)
 
 ` jsonp`
