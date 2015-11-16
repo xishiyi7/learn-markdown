@@ -1,5 +1,7 @@
 # Responsive Design (响应式布局)
 
+#### 参考资料：[响应式布局设计](http://www.qianduan.net/responsive-web-design/)
+
 ###### 1.设置meta标签
 
 `<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">`
