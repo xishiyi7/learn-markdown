@@ -158,3 +158,5 @@ debugger                                        // 在chrome的console中 debugg
             
       以上分别是三种不一样场景使用jsonp进行跨域的例子
 ```
+
+###### 8. HTML5本地存储功能
