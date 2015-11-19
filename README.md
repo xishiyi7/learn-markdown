@@ -11,4 +11,5 @@
 ## 一些很实用的网站
 > [leart git](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000)  
 > [前端网址导航](http://www.whycss.com/)  
-> [jquery源码分析](http://www.cnblogs.com/aaronjs/p/3279314.html) 
+> [jquery源码分析](http://www.cnblogs.com/aaronjs/p/3279314.html)  
+> [当幸福来敲门-web开发相关ppt](http://mienflying.bitbucket.org/#intro)  
