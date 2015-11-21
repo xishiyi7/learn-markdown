@@ -13,3 +13,4 @@
 > [前端网址导航](http://www.whycss.com/)  
 > [jquery源码分析](http://www.cnblogs.com/aaronjs/p/3279314.html)  
 > [当幸福来敲门-web开发相关ppt](http://mienflying.bitbucket.org/#intro)  
+> [meta常用实用属性](http://www.qianduan.net/meta-tags-list/)  
