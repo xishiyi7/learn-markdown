@@ -14,3 +14,4 @@
 > [jquery源码分析](http://www.cnblogs.com/aaronjs/p/3279314.html)  
 > [当幸福来敲门-web开发相关ppt](http://mienflying.bitbucket.org/#intro)  
 > [meta常用实用属性](http://www.qianduan.net/meta-tags-list/)  
+> [比较炫酷的动画、canvas网站](http://www.thewildernessdowntown.com/)
