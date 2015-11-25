@@ -15,3 +15,4 @@
 > [当幸福来敲门-web开发相关ppt](http://mienflying.bitbucket.org/#intro)  
 > [meta常用实用属性](http://www.qianduan.net/meta-tags-list/)  
 > [比较炫酷的动画、canvas网站](http://www.thewildernessdowntown.com/)
+> [移动H5前端性能优化指南](http://s5s5.me/3192)
