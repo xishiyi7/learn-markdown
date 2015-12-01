@@ -15,5 +15,5 @@
 > [当幸福来敲门-web开发相关ppt](http://mienflying.bitbucket.org/#intro)  
 > [meta常用实用属性](http://www.qianduan.net/meta-tags-list/)  
 > [比较炫酷的动画、canvas网站](http://www.thewildernessdowntown.com/)  
-> [移动H5前端性能优化指南](http://s5s5.me/3192)
+> [移动H5前端性能优化指南](http://s5s5.me/3192)  
 > [html5设计原理](http://www.cnblogs.com/leamiko/archive/2011/09/23/2186518.html)
