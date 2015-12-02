@@ -17,4 +17,5 @@
 > [比较炫酷的动画、canvas网站](http://www.thewildernessdowntown.com/)  
 > [移动H5前端性能优化指南](http://s5s5.me/3192)  
 > [html5设计原理](http://www.cnblogs.com/leamiko/archive/2011/09/23/2186518.html)  
-> [setTimeout与setInterval](http://www.css88.com/archives/5804)
+> [setTimeout与setInterval](http://www.css88.com/archives/5804)  
+> [关于软件的生命周期](http://tangguangyao.github.io/2015/10/27/%E5%85%B3%E4%BA%8E%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/)
