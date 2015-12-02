@@ -20,3 +20,4 @@
 > [setTimeout与setInterval](http://www.css88.com/archives/5804)  
 > [关于软件的生命周期](http://tangguangyao.github.io/2015/10/27/%E5%85%B3%E4%BA%8E%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/)  
 > [Got Github](http://www.worldhello.net/gotgithub/index.html)  
+> [MDN-JS(js标准库)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)  
