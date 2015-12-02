@@ -104,6 +104,57 @@ debugger                                        // 在chrome的console中 debugg
 
 ` 通过委托添加事件，除了能提升性能，还可以很友好的支持动态绑定`
 
+` 闭包与bind`
+```
+      面试题：针对下面这个ul，为每一个li添加一个点击事件，弹出对应的index (测试闭包或者this或者bind可用)
+            <ul id="text">
+                  <li>这是第一个li</li>
+                  <li>这是第二个li</li>
+                  <li>这是第三个li</li>
+            </ul>
+      
+      解答一：bind，将当前匿名函数指向this，将i当参数传入
+              var init = function(){
+                var obj = document.getElementById('text');
+                for(var i=0;i<obj.children.length;i++){
+                  obj.children[i].addEventListener('click',function(i){
+                    alert(i)
+                  }.bind(this,i))
+                }
+              }
+              init();
+      
+      解答二：闭包
+              var init = function(){
+                var lis=document.querySelectorAll("#text li");
+                  for(var i=0;i<lis.length;i++){
+                        lis[i].onclick=(function(i){
+                              return function(){
+                                    alert(i);
+                              };
+                        })(i)
+                  }
+              }
+              init();
+      
+      解答三：最笨的方法，匹配
+              var init = function(){
+                var obj = document.getElementById('text');
+                      for(var i=0;i<obj.children.length;i++){
+                        obj.children[i].addEventListener('click',function(item){
+                          var self = item.target;
+                          for(var j=0;j<obj.children.length;j++){
+                            if(self == obj.children[j]){
+                              alert(j);
+                            }
+                          }
+                        })
+                      }
+                }
+              init();   
+      
+```
+
 ###### 6. 类型
 
 ` !!, 通过!!, 0/null/undefined/false等值都会变为false, 而非这些值的变量都会变为true, 方便判断`
