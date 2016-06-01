@@ -24,8 +24,9 @@
 > [CSS loading动画集合](https://connoratherton.com/loaders)  
 > [CSS loading codepen.io](http://codepen.io/collection/HtAne/)
 > [Chrome 35个开发者工具的小技巧](http://www.w3cplus.com/tools/dev-tips.html)
-> [JavaScript 标准库](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
-> [github星榜](http://githuber.cn/rank)
-> [Angular styleguide](https://github.com/toddmotto/angular-styleguide)
+> [JavaScript 标准库](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)  
+> [github星榜](http://githuber.cn/rank)  
+> [Angular styleguide](https://github.com/toddmotto/angular-styleguide)  
+
 
 
